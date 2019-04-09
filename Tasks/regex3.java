@@ -21,7 +21,7 @@ public class regex3 {
         System.out.println("Input anything:");
         String line = sc.nextLine();
         
-        String pattern = "\\+|-|/|\\*";
+        String pattern = "\\+|-|/|\\*|&|\\|";
 
         Pattern r = Pattern.compile(pattern);
 
